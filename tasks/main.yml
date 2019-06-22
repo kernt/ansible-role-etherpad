@@ -22,9 +22,9 @@
   notify:
     - restart etherpad
 
-- name: create etherpad service
-  import_role:
-    name: ansible-role-etherpad
+#- name: create etherpad service
+#  import_role:
+#    name: ansible-role-etherpad
 
 - name: start and enable etherpad
   service:
