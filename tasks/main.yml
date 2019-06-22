@@ -24,7 +24,7 @@
 
 - name: create etherpad service
   import_role:
-    name: robertdebock.service
+    name: ansible-role-etherpad
 
 - name: start and enable etherpad
   service:
